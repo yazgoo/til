@@ -18,7 +18,7 @@ it can be accessed via
 
 lets say we have:
 
-```json
+```ruby
 things: [
          {
          a: 42,
@@ -39,7 +39,7 @@ ARRAY(SELECT as struct thing.*, thing.field * 2 as field_time_2 from unnest(thin
 ```
 which will output:
 
-```json
+```ruby
 things: [
          {
          a: 42,
