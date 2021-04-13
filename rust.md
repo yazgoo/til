@@ -5,6 +5,14 @@
 Box allow to pass arround objects which size is not known at compile time.
 e.g. when using traits
 
+## Errors
+
+To do generic errors just return 
+
+```rust
+Result<Smthing, Box<dyn Error>>
+```
+
 ## traits
 
 traits are a way to add genericity to rust that I did not use previously.
