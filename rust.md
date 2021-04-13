@@ -13,6 +13,8 @@ To do generic errors just return
 Result<Smthing, Box<dyn Error>>
 ```
 
+or you can use [anyhow](https://github.com/dtolnay/anyhow)
+
 ## traits
 
 traits are a way to add genericity to rust that I did not use previously.
