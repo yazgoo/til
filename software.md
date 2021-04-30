@@ -25,3 +25,17 @@ openssl s_client -connect host:port
 ### find open TCP ports
 
 nmap -n -PN -sT -p- localhost
+
+## sshd
+
+Verbose logs
+
+```
+LogLevel DEBUG3
+```
+
+Add allowed key exchange algorithms
+
+```
+ KexAlgorithms +diffie-hellman-group14-sha1
+```

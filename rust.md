@@ -23,6 +23,10 @@ https://doc.rust-lang.org/rust-by-example/trait.html
 
 You can pass arround objects implementing traits with `Box<dyn Obj>`
 
+## Self
+
+Self type, can be used in trait to reference implementing class type
+
 ## splitting crate in modules
 
 https://doc.rust-lang.org/book/ch07-05-separating-modules-into-different-files.html
