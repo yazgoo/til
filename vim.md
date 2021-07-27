@@ -2,6 +2,13 @@
 
 vim tips and tricks
 
+## git commit in virtualine
+
+```
+Plug 'tveskag/nvim-blame-line'
+autocmd BufEnter * EnableBlameLine
+```
+
 ## vim-surround
 
 - `ysiW"` surround a WORD with double quotes
