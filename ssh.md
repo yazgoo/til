@@ -18,6 +18,9 @@ Host github-yazgoo
 Then just add to personal repo .git/config:
 
 ```
+[user]
+    name = yazgoo
+    email = <my email>
 [url "git@github-yazgoo:"]
     insteadOf = git@github.com:
 ```
