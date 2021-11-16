@@ -13,6 +13,13 @@ autocmd BufEnter * EnableBlameLine
 
 - `ysiW"` surround a WORD with double quotes
 
+## hapoon
+
+Harpoon is awesome
+
+https://github.com/ThePrimeagen/harpoon
+https://www.youtube.com/watch?v=Qnos8aApa9g
+
 ## align columns with whitespaces
 
 By using column command
