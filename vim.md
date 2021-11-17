@@ -2,6 +2,10 @@
 
 vim tips and tricks
 
+## clear selection
+
+until next search `:noh`
+
 ## git commit in virtualine
 
 ```
@@ -63,3 +67,4 @@ q 	stop recording
 ## center current line
 
 The z. and zz commands will recenter the line the cursor is on. z. also moves the cursor to the first non-whitespace character in the line, while zz keeps the cursor where it is.
+

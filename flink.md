@@ -33,3 +33,7 @@ parallelism = 60
 end
 pp res
 ```
+
+## making sure their is no shuffle on flink (per partition consumption)
+
+https://stackoverflow.com/a/64195342
