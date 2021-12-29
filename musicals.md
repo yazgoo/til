@@ -1,0 +1,12 @@
+- hamilton
+- rent
+- in the heights
+- tick tick boom
+- waitress
+- heather
+- once more with feelings
+- hadestown
+- the last five years
+- The Rocky Horror Show
+- west side story
+- tommy
