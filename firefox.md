@@ -19,3 +19,10 @@ https://addons.mozilla.org/en-US/firefox/addon/sticky-window-containers/
 ## open new window in same
 
 https://support.mozilla.org/en-US/questions/1226151
+
+    Type about:config in the Firefox address bar
+    Bypass the security warning
+    Find the browser.link.open_newwindow.restriction preference
+    Double click it to change the value to 0
+    Find the browser.link.open_newwindow preference
+    Double click it to change the value to 1 

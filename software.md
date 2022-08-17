@@ -39,3 +39,10 @@ Add allowed key exchange algorithms
 ```
  KexAlgorithms +diffie-hellman-group14-sha1
 ```
+
+## SQL files
+
+DSQ to query files
+https://github.com/multiprocessio/dsq
+
+https://datastation.multiprocess.io/blog/2022-01-11-dsq.html
