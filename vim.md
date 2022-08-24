@@ -2,6 +2,12 @@
 
 vim tips and tricks
 
+## neovim vimdiff
+
+neovim diff is much better than vim default one
+
+alias vimdiff='nvim -d'
+
 ## clear selection
 
 until next search `:noh`
