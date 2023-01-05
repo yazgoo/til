@@ -74,3 +74,6 @@ q 	stop recording
 
 The z. and zz commands will recenter the line the cursor is on. z. also moves the cursor to the first non-whitespace character in the line, while zz keeps the cursor where it is.
 
+## open current file directory
+
+split %:p:h
