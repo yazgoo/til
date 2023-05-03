@@ -18,3 +18,18 @@ Section "Device"
    Option      "TearFree" "true"
 EndSection
 ```
+
+# configure keyboard via xorg.conf
+
+Instead of running custom commands at xorg start
+
+```bash
+❯ cat /etc/X11/xorg.conf.d/00-keyboard.conf
+Section "InputClass"
+        Identifier "system-keyboard"
+        MatchIsKeyboard "on"
+        Option "XkbLayout" "fr"
+        Option "XkbVariant" "bepo"
+        Option "XkbOptions" "caps:swapescape"
+EndSection
+```
